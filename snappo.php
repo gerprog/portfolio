@@ -1,3 +1,3 @@
 <?php
-include_once( "views/snappo.html");
+include_once( "snappo.html");
 ?>

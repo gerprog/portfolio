@@ -1,3 +1,3 @@
 <?php
-include_once( "views/glass.html");
+include_once( "glass.html");
 ?>

@@ -1,3 +1,3 @@
 <?php
-include_once( "views/about.html");
+include_once( "about.html");
 ?>

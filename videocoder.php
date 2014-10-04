@@ -1,3 +1,3 @@
 <?php
-include_once( "views/videocoder.html");
+include_once( "videocoder.html");
 ?>

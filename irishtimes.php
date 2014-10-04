@@ -1,3 +1,3 @@
 <?php
-include_once( "views/irishtimes.html");
+include_once( "irishtimes.html");
 ?>

@@ -1,3 +1,3 @@
 <?php
-include_once( "views/so_random_tshirts.html");
+include_once( "so_random_tshirts.html");
 ?>

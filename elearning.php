@@ -1,3 +1,3 @@
 <?php
-include_once( "views/elearning.html");
+include_once( "elearning.html");
 ?>

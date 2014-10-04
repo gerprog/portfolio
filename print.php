@@ -1,3 +1,3 @@
 <?php
-include_once( "views/print.html");
+include_once( "print.html");
 ?>

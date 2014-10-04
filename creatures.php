@@ -1,3 +1,3 @@
 <?php
-include_once( "views/creatures.html");
+include_once( "creatures.html");
 ?>
