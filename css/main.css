@@ -309,10 +309,10 @@ font-weight: lighter;
  background-color:#fff;
  border-bottom:2px solid white;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 .row-fluid.phone-two .span_phone {
     width: 48%;
-    margin-left: 4%;
+    margin-left: 0%;
     float:left;
 }
 .row-fluid.phone-two > .span_phone:nth-child(odd){
