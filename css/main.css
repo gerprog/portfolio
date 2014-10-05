@@ -308,6 +308,7 @@ font-weight: lighter;
 .span_phone{
  background-color:#fff;
  border-bottom:2px solid white;
+  width: 100%;
 }
 @media (max-width: 768px) {
 .row-fluid.phone-two .span_phone {
@@ -318,4 +319,9 @@ font-weight: lighter;
 .row-fluid.phone-two > .span_phone:nth-child(odd){
     margin-left: 0;
 }
+}
+
+
+.container_100{
+    width: 100%;
 }
