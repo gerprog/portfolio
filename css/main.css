@@ -100,6 +100,25 @@ text-align: center;
 margin-bottom: 50px;
 }
 
+
+.font_view_website {
+ font-size: 17pt;
+ color: #000;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.5;
+  border-radius: 6px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+text-align: center;
+margin-bottom: 50px;
+}
+
 .font_button {
  font-size: 14pt;
  color: #000;
@@ -277,4 +296,10 @@ font-weight: lighter;
 /* selected link */
 .icons_social > a:active {
     color: #606060;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
