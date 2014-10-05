@@ -311,7 +311,7 @@ font-weight: lighter;
 }
 @media (max-width: 768px) {
 .row-fluid.phone-two .span_phone {
-    width: 48%;
+    width: 100%;
     margin-left: 0%;
     float:left;
 }
