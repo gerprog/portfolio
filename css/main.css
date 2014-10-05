@@ -126,7 +126,7 @@ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .font_navbar_brand {
- font-size: 24pt;
+ font-size: 20pt;
  color: #000;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-weight: lighter;
@@ -308,7 +308,6 @@ font-weight: lighter;
 .span_phone{
  background-color:#fff;
  border-bottom:2px solid white;
-  width: 100%;
 }
 @media (max-width: 768px) {
 .row-fluid.phone-two .span_phone {
@@ -321,7 +320,3 @@ font-weight: lighter;
 }
 }
 
-
-.container_100{
-    width: 100%;
-}
