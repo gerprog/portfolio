@@ -30,6 +30,11 @@
 	margin-bottom: 30px;
 }
 
+.padding_btn_btm {
+padding-bottom: 60px;
+
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
