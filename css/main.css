@@ -303,3 +303,19 @@ font-weight: lighter;
     float: none;
     margin: 0 auto;
 }
+
+/* below to have 2 cols on phone */
+.span_phone{
+ background-color:#fff;
+ border-bottom:2px solid white;
+}
+@media (max-width: 767px) {
+.row-fluid.phone-two .span_phone {
+    width: 48%;
+    margin-left: 4%;
+    float:left;
+}
+.row-fluid.phone-two > .span_phone:nth-child(odd){
+    margin-left: 0;
+}
+}
