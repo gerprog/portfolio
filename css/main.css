@@ -98,9 +98,30 @@ height: 100%;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+.font_cen_goth_caption {
+ font-size: 9pt;
+ color: #909090;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.font_cen_goth_ital {
+ font-size: 14pt;
+ font-style: italic;
+ color: #909090;
+ padding-left: 40px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 .font_cen_goth_blk {
  font-size: 14pt;
  color: #000;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.font_cen_goth_blk_bd {
+ font-size: 14pt;
+ color: #000;
+ font-weight: bold;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -360,4 +381,25 @@ font-weight: lighter;
 .container_center {
   text-align: center;
 }
+}
+
+
+
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+li:before { 
+    content: "";
+    border-color: transparent #A0A0A0;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }

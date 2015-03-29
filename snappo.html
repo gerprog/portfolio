@@ -73,10 +73,13 @@
                  <div class="col-md-5 grey_background padding-top-5"> 
                   <h2 class="margin-bottom-50"> Snappo!</h2>
                     <p class="font_cen_goth"> 
-                      A college project built with Ruby on Rails, Snappo! suggests photo challenges to the user. 
+                      A college project for Usability Testing and implemenation (with a score of 93%) built with Ruby on Rails. Snappo! suggests photo challenges to the user. 
                     </p>
                     <p class="font_cen_goth">Comprising of a few tasks, these challenges can be accepted and interpreted in any way. The results are uploaded for view in the gallery and to be voted on by other users.</p>
                       <p class="font_cen_goth">This solo project evolved through 5 iterations each of which involved user testing.</p>
+                     <p class="font_cen_goth"> 
+                     Please see below for a detailed description of the process envolved with the development of this application.
+                    </p>
                      <p class ="font_cen_goth_blk">Technology used:</p>
                      <p class="font_cen_goth">  HTML5, CSS3, Adobe CS<br>
                       Ruby on Rails<br>
@@ -88,9 +91,7 @@
                      Disqus for the forum.
                     </p>
                     <p class="font_cen_goth margin-bottom-30">The <a href="https://github.com/gerprog/snappo" target="_blank">code</a></p>
-                      <p class="font_cen_goth"> 
-                     Wireframes created with AdobeCS are bottom of this page.
-                    </p>
+                   
                     <div class="padding_btn_btm">
                     <a href="http://snappo1.herokuapp.com" target="_blank"><button type="button" class="btn font_button btn-lg btn-default pull-right margin-bottom-10">View Website</button></a>
                     </div> 
@@ -117,27 +118,229 @@
 
 <div class="jumbotron">
   <div class="container">
-<h2 class="font_wireframes"> Wireframes</h2>
+ <div class="col-md-12"> 
+
+<div class="margin-bottom-100">
+<p class="font_cen_goth">
+The results of the usability testing on Snappo! and the analysis of those results provided a solid foundation for the design and implementation of the application. Following is a breakdown of the process involved. </p>
+</div>
+<!--<h2 class="">The requirements for Snappo!</h2>
+<ul>
+<li class="font_cen_goth"> 
+<i class="fa fa-caret-right" style="padding-right:20px;"></i>That it is fast and easy to use.<br> 
+<i class="fa fa-caret-right" style="padding-right:20px;"></i>That the user is having fun through taking on a challenge or several challenges that will help them be creative with photography.<br> 
+<i class="fa fa-caret-right" style="padding-right:20px;"></i></i>That they have some surprising results they can then upload and see if other users will vote for them or see how their photos compare to others in the gallery. <br>
+<i class="fa fa-caret-right" style="padding-right:20px;"></i>That the application is fully usable in all these respects.</li> 
+</ul>-->
+<div class="margin-bottom-100">
+<h2 class="">The requirements for Snappo!</h2>
+<ul>
+<li class="font_cen_goth"> 
+That it is fast and easy to use.</li> 
+<li class="font_cen_goth"> That the user is having fun through taking on a challenge or several challenges that will help them be creative with photography.</li> 
+<li class="font_cen_goth"> That they have some surprising results they can then upload and see if other users will vote for them or see how their photos compare to others in the gallery. </li>
+<li class="font_cen_goth"> That the application is fully usable in all these respects.</li> 
+</ul>
+</div>
+
+<h2 class="">Design</h2>
+
+
+
+<div class="row"> 
+  <div class="col-md-6"> 
+    <p class="font_cen_goth"> In order to create personas a questionnaire was distributed amongst a group of 14, 8 responded. The identified behavioural patterns and subsequent identification of user clusters leading to the creation of 3 personas. </p>
+     <p class="font_cen_goth"> The primary persona is presented here.</p>
+    <p class="font_cen_goth"> The five participants in this usability study were selected  as they closely align with the primary persona in self rated computer skills and interest in amateur photography. The age range of participants was from 15 to 39 years old.</p>
+    </div> 
+      <div class="col-md-offset-1 col-md-5"> 
+        <img src="images/persona1.png" class="img-responsive margin-bottom-50" alt="Primary Persona"> 
+      </div> 
+
+</div>
+
+<div class="container margin-bottom-50 ">
+<h2 class="font_wireframes"> Initial Sketches</h2>
                     <div class="col-sm-4">
-                      <img src="images/snappo_wire1.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 1">
+                      <img src="images/snappo_sketch1.jpg" class="img-responsive margin-bottom-10" alt="snappo sketch 1">
                     </div>
                     <div class="col-sm-4">
-                      <img src="images/snappo_wire4.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 4">
+                      <img src="images/snappo_sketch2.jpg" class="img-responsive margin-bottom-10" alt="snappo sketch 2">
                     </div>
                      <div class="col-sm-4">
-                      <img src="images/snappo_wire7.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 7">
+                      <img src="images/snappo_sketch3.jpg" class="img-responsive margin-bottom-10" alt="snappo sketch 3">
+                    </div>
+                   
+</div> <!-- container-->
+
+<p class="font_cen_goth"> A wireframe document highlighted requirements for each stage of the application. These included functionality, interface and database requirements identified through all interfaces for the application.</p>
+
+</div>
+
+<div class="container margin-bottom-50 ">
+<h2 class="font_wireframes"> Wireframes</h2>
+                    <div class="col-sm-4">
+                      <img src="images/snappo_WF1.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 1">
                     </div>
                     <div class="col-sm-4">
-                      <img src="images/snappo_wire3.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 3">
+                      <img src="images/snappo_WF2.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 4">
+                    </div>
+                     <div class="col-sm-4">
+                      <img src="images/snappo_WF3.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 7">
+                    </div>
+                    <div class="col-sm-4">
+                      <img src="images/snappo_WF4.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 3">
                     </div>
                     
                     <div class="col-sm-4">
-                      <img src="images/snappo_wire5.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 5">
+                      <img src="images/snappo_WF5.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 5">
                     </div>
                     <div class="col-sm-4">
-                      <img src="images/snappo_wire6.png" class="img-responsive margin-bottom-10" alt="snappo wireframe 6">
+                      <img src="images/snappo_WF6.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 6">
                     </div>
-          </div> <!-- container-->
+                     <div class="col-sm-offset-4 col-sm-4">
+                      <img src="images/snappo_WF7.jpg" class="img-responsive margin-bottom-10" alt="snappo wireframe 6">
+                    </div>
+</div> <!-- container-->
+
+
+
+<div class="container">
+  <div class="margin-bottom-100">
+<h2 class="">Testing</h2>
+<p class="font_cen_goth"> The users were in two groups. One group was undirected and approached the application with no prior
+knowledge of its purpose or functionality. The other group received direction in the form of ten tasks to complete.</p>
+
+<p class="font_cen_goth"> These two groups of users, with different instructions and conditions given prior to commencing the test, allowed for some ‘between subject testing’. No user was in both groups. Data was obtained by presenting users with the application and recording their on-screen movements and voice as they were encouraged to talk aloud while using it. </p>
+
+<p class="font_cen_goth"> On completion each participant completed the SUS (System Usability Scale) survey and also a short questionnaire referring directly to how they felt about using Snappo!</p>
+
+<p class="font_cen_goth">Where deficiencies in usability were exposed efforts were made to correct these.</p>
+
+<p class="font_cen_goth">User 1 had the earliest stage of the application presented for usability testing and User 5 had the closest to the final product.</p>
+
+<p class="font_cen_goth">Testing 5 users doesn’t give much statistical data but it does provide a lot of meaningful
+qualitative data, of observation and insight. The application was improved by applying the methodology of usability testing, evaluating, analysing the results at each iteration, and then repeating the process again.</p>
+</div>
+
+<div class="container margin-bottom-50">
+<h2 class="font_wireframes">Two early Stages of the Homepage</h2>
+                    <div class="col-sm-6">
+                      <img src="images/snappo_stage1.png" class="img-responsive margin-bottom-10" alt="snappo stage 1">
+                       <h6 class="font_cen_goth_caption">First iteration for the homepage</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <img src="images/snappo_stage2.png" class="img-responsive margin-bottom-10" alt="snappo stage 2">
+                       <h6 class="font_cen_goth_caption">Second iteration for the homepage</h6>
+                    </div>
+                    
+</div> <!-- container-->
+
+<p class="font_cen_goth">After testing with User 1 a lot of information was gathered on how to clarify certain important steps. The concept of taking challenges to create photos was in general lost on the user and they spent a large amount of time trying to gauge some understanding of the task. Signing up was cumbersome, logging in after that was confusing. Form fields and buttons were too small. The user suggested that the front have a very large banner explaining exactly in a few words what was happening.</p>
+
+<div class="margin-bottom-100">
+<p class="font_cen_goth_ital">“I don’t know what I’m supposed to be doing or what the challenge is supposed to be. It should be explained at the very beginning.”</p>
+<p class="font_cen_goth_ital">“This home page needs a paragraph with in a nutshell what this game is about and what to do.”</p>
+<p class="font_cen_goth_ital">"I’d like a cartoon on the splash or home page. Something that illustrates ‘A Camera Challenge is....’" </p>
+<p class="font_cen_goth_ital">"The name Camera Challenge is too dry, it definitely needs to be changed!"</p>
+</div>
+
+<div class="margin-bottom-100">
+<p class="font_cen_goth">Users 2, 3 and 4 were each presented with the next iteration. A large orange banner with illustration had been placed on the home page, a couple of the steps for sign up, login and upload of a photo had been removed. The feedback was generally positive although it was found that in some cases, especially User 3 that signing in and actually saving the challenge was too confusing. Suggestions that buttons and form fields should be bigger and that a couple of steps be removed were taken on board for the next iteration.</p>
+</div>
+
+<div class="row margin-bottom-50"> 
+  <div class="col-md-6"> 
+    <p class="font_cen_goth">All these suggestions were implemented and presented to User 5 with larger buttons and reduced steps.
+  User 5’s feedback provided valuable insight into what was really lacking to get the basic fundamentals of Snappo!’s function across. This allowed for some essential fine tuning. </p>
+  <p class="font_cen_goth">What followed was a redesign of the home page, by placing very large clear text in a large yellow box and clear illustrated steps explaining how to proceed and what exactly a challenge consisted of by showing examples of some that were completed. Reducing yet further the steps involved and redirecting where appropriate, clearer use of language, bringing word use down to the bare minimum. These steps led to the final stage of Snappo! that we see here.</p>
+  </div>
+
+  <div class="col-md-offset-1 col-md-5"> 
+      <img src="images/snappo_long_grad.png" class="img-responsive" alt="Snappo final home page"> 
+      <h6 class="font_cen_goth_caption">Final iteration for the homepage</h6>
+  </div> 
+</div> <!-- row-->
+
+<div class="row margin-bottom-100"> 
+   <div class="col-md-12"> 
+  <h2 class="">Results</h2>
+  <p class="font_cen_goth">Data from the screen recordings is presented in the project's final report to illustrate the following:</p>
+  <p class="font_cen_goth">1. The Tasks to do: <br>
+  This applies primarily to those who were directed. </p>
+
+  <p class="font_cen_goth">2. User responses: <br>
+  Highlights of the users’ reactions, interpretations, understanding or not and any questions made.</p>
+
+  <p class="font_cen_goth">3. Errors: <br>
+  How many errors made while carrying out the task. These are recordings of any deviations made from what the task was asking the user to do. For the undirected group errors were defined as inconsistencies in the response to what they said they were going to do or attempting to do.</p>
+
+  <p class="font_cen_goth">4. Help<br>
+  The amount of requests for help that were made while carrying out a task.</p>
+
+  <p class="font_cen_goth">5. Time<br>
+  How long in minutes and seconds, taken to complete a task.</p>
+
+
+  
+  <p class="font_cen_goth">A comparison of undirected and directed groups provided insight into how an instructed approach compared with otherwise. Looking at Effectiveness, Efficiency and Satisfaction (SUS score) between the groups produced interesting results. The results are measurements for errors, for time taken and for satisfaction.</p>
+  </div> 
+</div><!-- row-->
+
+<div class="row"> 
+  <div class="col-md-6"> 
+    <p class="font_cen_goth_blk_bd">Effectiveness</p>
+    <p class="font_cen_goth">Four of the tasks to do had high error rates and 'Help' asks of 15% or over. The remaining six tasks being more effective. Calculating overall effectiveness by averaging the results for effectiveness shows the undirected group
+    with 75% and the directed group with 79.8%. These are very close but may suggest that clear instructions
+    were helpful.</p>
+  </div>
+      <div class="col-md-offset-1 col-md-5"> 
+          <img src="images/effectiveness_error_rate.png" class="img-responsive margin-top-text" alt="effectiveness graph with error rate"> 
+          <h6 class="font_cen_goth_caption">Results for Effectiveness</h6>
+      </div>
+</div><!-- row-->
+
+<div class="row"> 
+ <div class="col-md-6"> 
+    <p class="font_cen_goth_blk_bd">Efficiency</p>
+    <p class="font_cen_goth">Calculating overall efficiency by averaging the results shows the undirected group with 81.8% and the directed group with 72.9%. This is interesting and suggests that the time taken to read instructions and follow directly rather than as they wished played a part in bringing down efficiency for those directed. Eight of the tasks had an efficiency level over 60%.</p>
+ </div>
+      <div class="col-md-offset-1 col-md-5"> 
+        <img src="images/efficiency.png" class="img-responsive margin-top-text" alt="efficiency graph for the 10 tasks"> 
+        <h6 class="font_cen_goth_caption">Results for Efficiency</h6>
+      </div> 
+</div><!-- row-->
+
+
+<div class="row margin-bottom-100"> 
+    <div class="col-md-6 cod-md-offset-6"> 
+      <p class="font_cen_goth_blk_bd">Satisfaction</p>
+      <p class="font_cen_goth">The overall SUS (System Usability Scale) score of 70.5 is above the average of 68. The SUS score for undirected is 77.5 and for directed is 65.8. This is interesting in that the undirected are quite far above average and the directed slightly below. This may arise from frustration with following instructions and not being able to exactly produce the required results. </p>
+       <p class="font_cen_goth">In joining all data together overall effectiveness is 78%, efficiency is 77.8% and SUS score is 70.5%.</p>
+     </div> 
+
+    <div class="col-md-offset-1 col-md-5"> 
+        <img src="images/graph3.png" class="img-responsive margin-top-text" alt="Graph of results for effectiveness efficiency and satisfaction levels amongst all those tested">
+        <h6 class="font_cen_goth_caption">Results of Effectiveness, Efficiency and Satisfaction with all users</h6>
+    </div>               
+</div> <!-- row-->
+
+
+<div class="margin-bottom-50"> 
+    <p class="font_cen_goth">The iterative testing based on evaluation of previous test results allowed for gradual improvements to the interface and functionality of the application. Modifications often involved correcting a redirection after completion of a task. For example when someone signs up, the profile that appears will be different if they have something in the cart or not. The user is only directed to the relevant areas. </p>
+
+
+    <p class="font_cen_goth">It should be pointed out that the tasks within the challenges were quickly and randomly selected. The results, although entertaining, were often too difficult to actually interpret and respond to with a photo. Users were sometimes confused about this. Ideally the tasks would be clearly thought through with an audience in mind and not be off putting as being too difficult or too improbable.</p>
+
+    <p class="font_cen_goth">The user testing helped to open doors and see potential and faults in areas that may have been ignored otherwise. placing the project in a formal testing environment delivered an honest non-biased response very quickly.</p>
+
+    </div> <!-- margin-bottom-50-->
+
+</div><!-- container -->
+
+
+
+
 </div><!-- jumbotron -->
 </div><!-- container -->
 
